@@ -1,0 +1,40 @@
+nohup: ignorando entrada
+-> Not balanced
+
+--> Results before training
+** Test set
+Accuracy: 0.05
+Error rate: 0.95
+** Training set
+Accuracy: 0.0875
+Error rate: 0.9125
+
+--> Results after training
+** Test set
+Accuracy: 0.55
+Error rate: 0.45
+** Training set
+Accuracy: 0.65625
+Error rate: 0.34375
+
+-> Balanced
+
+--> Results before training
+** Test set
+Accuracy: 0.05
+Error rate: 0.95
+** Training set
+Accuracy: 0.2112676056338028
+Error rate: 0.7887323943661971
+
+--> Results after training
+** Test set
+Accuracy: 0.475
+Error rate: 0.525
+** Training set
+Accuracy: 0.7014084507042253
+Error rate: 0.29859154929577464
+
+Training time (not balanced):290.291983127594 seconds.
+Training time (balanced):558.2855389118195 seconds.
+Topology : [5] -> hidden layers

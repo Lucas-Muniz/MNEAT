@@ -1,0 +1,16 @@
+nohup: ignorando entrada
+WARNING: using StatsBase.predict in module Main conflicts with an existing identifier.
+WARNING: using StatsBase.fit! in module Main conflicts with an existing identifier.
+WARNING: redefinition of constant dataset1_labels. This may fail, cause incorrect answers, or produce other errors.
+WARNING: redefinition of constant dataset2_labels. This may fail, cause incorrect answers, or produce other errors.
+WARNING: redefinition of constant dataset3_labels. This may fail, cause incorrect answers, or produce other errors.
+WARNING: redefinition of constant dataset4_labels. This may fail, cause incorrect answers, or produce other errors.
+WARNING: redefinition of constant dataset5_labels. This may fail, cause incorrect answers, or produce other errors.
+WARNING: redefinition of constant datasetDemo_labels. This may fail, cause incorrect answers, or produce other errors.
+WARNING: redefinition of constant datasetOverlap_labels. This may fail, cause incorrect answers, or produce other errors.
+WARNING: redefinition of constant DEFAULT_DATASET_PATH. This may fail, cause incorrect answers, or produce other errors.
+--> Dataset demo 2 (overlap)
+Time: 15619.642174005508 seconds.
+Best solution's fitness: 0.46627565982404695
+Accuracy after NEAT: 0.636
+Error rate after NEAT: 0.364

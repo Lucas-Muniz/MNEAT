@@ -1,0 +1,2 @@
+Link do repositório: https://github.com/Andy-P/NEAT.jl
+Dissertação: https://odr.chalmers.se/bitstream/20.500.12380/256911/1/256911.pdf

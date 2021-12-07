@@ -1,0 +1,52 @@
+#--- parameters for the neat-dataset3 experiment ---#
+
+# [phenotype]
+input_nodes         = 11
+output_nodes        = 11
+max_weight          = 15
+min_weight          = -15
+nn_activation       = tanh
+initial_hidden_nodes = 1
+#weight_stdev        = 0.9
+
+# [genetic]
+pop_size              = 150
+max_fitness_threshold = 0.9
+prob_structural_mutation = 0.15
+prob_addnode          = 0.7
+prob_removenode       = 0.5
+prob_enable_mutation  = 0.15
+prob_addlayer         = 0.2
+prob_mutatebias       = 0.20
+bias_mutation_power   = 0.50
+prob_mutate_weight    = 0.90
+weight_mutation_power = 0.50
+elitism               = 1
+
+
+#[genotype compatibility]
+compatibility_threshold = 3.0
+compatibility_change    = 0.05
+excess_coeficient       = 1.0
+disjoint_coeficient     = 1.0
+weight_coeficient       = 0.4
+
+#[species]
+species_size        = 40
+survival_threshold  = 0.2
+old_threshold       = 30
+youth_threshold     = 10
+old_penalty         = 0.8
+youth_boost         = 1.2
+max_stagnation      = 15
+best_max_stagnation = 100
+limit_species       = 3
+
+# [evaluation]
+dataset_id          = 4
+fitness_function_id = 2
+normalise_input     = true
+balance_dataset     = true
+
+# [checkpoint]
+checkpoint_filename = checkpoint-dt3-limited-2000g

@@ -1,0 +1,39 @@
+nohup: ignorando entrada
+-> Not balanced
+
+--> Results before training
+** Test set
+Accuracy: 0.15
+Error rate: 0.85
+** Training set
+Accuracy: 0.15
+Error rate: 0.85
+
+--> Results after training
+** Test set
+Accuracy: 0.35
+Error rate: 0.65
+** Training set
+Accuracy: 0.3625
+Error rate: 0.6375
+
+-> Balanced
+
+--> Results before training
+** Test set
+Accuracy: 0.15
+Error rate: 0.85
+** Training set
+Accuracy: 0.2507042253521127
+Error rate: 0.7492957746478873
+
+--> Results after training
+** Test set
+Accuracy: 0.225
+Error rate: 0.775
+** Training set
+Accuracy: 0.23943661971830985
+Error rate: 0.7605633802816901
+
+Training time (not balanced):69.21609687805176 seconds.
+Training time (balanced):119.69470500946045 seconds.

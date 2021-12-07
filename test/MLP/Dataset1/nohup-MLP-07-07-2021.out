@@ -1,0 +1,14 @@
+nohup: ignorando entrada
+-> Not balanced
+Accuracy before training: 0.3
+Error rate before training: 0.7
+Accuracy after training: 0.5
+Error rate after training: 0.5
+
+-> Balanced
+Accuracy before training: 0.05
+Error rate before training: 0.95
+Accuracy after training: 0.5
+Error rate after training: 0.5
+Training time (not balanced):73.68559408187866 seconds.
+Training time (balanced):134.54308104515076 seconds.

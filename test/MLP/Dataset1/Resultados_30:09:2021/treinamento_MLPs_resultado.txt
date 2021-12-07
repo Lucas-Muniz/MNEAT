@@ -1,0 +1,11 @@
+==> Treinemanto de redes no dataset 1
+
+n_features = 5
+labels = [1.0, 2.0, 3.0, 4.0, 5.0]
+topologia = [5]
+número de redes = 15
+épocas = 5000
+
+--> Resultado:
+Taxa erro final média (treinamento): 0.0
+Taxa erro final média (test): 0.0

@@ -1,0 +1,32 @@
+#inf_pl =  evaluate_information_plane(model, x_train)
+
+#=
+fit!(model, x_train, y_train ; max_epochs=20)
+inf_pl =  evaluate_information_plane(model, x_train, y_train)
+p = plot!(inf_pl, color=:red)
+fit!(model, x_train, y_train ; max_epochs=20)
+inf_pl =  evaluate_information_plane(model, x_train, y_train)
+plot(inf_pl, color=:blue)
+savefig("test.png")
+=#
+
+#=
+T = model.net[1:3].(x_train) |> flat_vector
+X_flatten = x_train |> flat_vector
+Y_flatten = Flux.onehot.(getindex.(y_train,1), [model.labels]) |> flat_vector
+
+Y_flatten = y_train |> flat_vector
+p_t, p_y, p_ty = calculate_markov_chain_probability(Y_flatten, X_flatten, T)
+=#
+
+#inf_pl =  evaluate_information_plane(model, x_train, y_train)
+#er = error_rate(zip(x_train, y_train), model)
+#ac = accuracy(zip(x_train, y_train), model)
+
+#=
+inf_pl =  evaluate_information_plane(model, x_train, y_train)
+p = plot!(inf_pl, color=:red)
+savefig("test1.png")
+=#
+
+#inf_pl = layer_information_plane_positionM(model, 2, x_train, y_train)

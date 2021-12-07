@@ -1,0 +1,18 @@
+Datasets para o PGC:
+
+1) Classificação de medicamentos
+link: https://www.kaggle.com/prathamtripathi/drug-classification
+
+2) Classificação de vinhos
+link: https://archive.ics.uci.edu/ml/datasets/wine+quality
+
+3) Doenças cardíacas
+link: https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+
+4) Renda 
+link: https://www.kaggle.com/ahmettezcantekin/beginner-datasets
+
+-> Dataset: income.csv
+
+5) Consumo de drogas
+link: https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29

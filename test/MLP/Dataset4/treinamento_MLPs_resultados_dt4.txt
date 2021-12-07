@@ -1,0 +1,12 @@
+==> Treinemanto de redes no dataset 4
+
+n_features = 12
+labels = [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]
+topologia = [14]
+número de redes = 10
+épocas = 5000
+
+Taxa erro final média (treinamento): 0.4940298507462687
+Taxa erro final média (test): 0.8092838196286471
+
+Tempo para treinar as redes: 27173.182759 seconds

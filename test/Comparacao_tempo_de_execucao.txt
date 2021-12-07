@@ -1,0 +1,19 @@
+Tabela de tempo de execução:
+ 
+ ** Dataset 1 **
+ -> NEAT: 3999.9229481220245 seconds
+ -> Backpropagation:
+ 
+  ** Dataset 2 **
+ -> NEAT: 76293.70376610756 seconds
+ -> Backpropagation:
+ 
+  ** Dataset 3 **
+ -> NEAT: 98959.7467739582 seconds
+ -> Backpropagation:
+ 
+  ** Dataset 4 **
+ -> NEAT: 30503.398843050003 seconds
+ -> Backpropagation:
+ 
+ 

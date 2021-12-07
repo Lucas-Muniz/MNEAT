@@ -1,0 +1,41 @@
+nohup: ignorando entrada
+Topology: [16]
+Epochs: 5000
+-> Not balanced
+
+--> Results before training
+** Test set
+Accuracy: 0.13615384615384615
+Error rate: 0.8638461538461538
+** Training set
+Accuracy: 0.10159707523571292
+Error rate: 0.8984029247642871
+
+--> Results after training
+** Test set
+Accuracy: 0.43846153846153846
+Error rate: 0.5615384615384615
+** Training set
+Accuracy: 0.48912834327496635
+Error rate: 0.5108716567250337
+
+-> Balanced
+
+--> Results before training
+** Test set
+Accuracy: 0.13615384615384615
+Error rate: 0.8638461538461538
+** Training set
+Accuracy: 0.0961765091004321
+Error rate: 0.9038234908995679
+
+--> Results after training
+** Test set
+Accuracy: 0.48846153846153845
+Error rate: 0.5115384615384615
+** Training set
+Accuracy: 0.36833835275631793
+Error rate: 0.6316616472436821
+
+Training time (not balanced):5791.279810190201 seconds.
+Training time (balanced):17703.204063892365 seconds.

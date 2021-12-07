@@ -1,0 +1,26 @@
+==> Treinemanto de redes no dataset 2
+
+n_features = 13
+labels = [0.0, 1.0]
+topologia = [26]
+número de redes = 10
+épocas = 5000
+
+Taxa erro final média (treinamento): 0.12105555555555556
+Taxa erro final média (test): 0.20249999999999999
+
+# Tempo para gerar pontos do plano de informação: 37015.797064 s
+
+
+==> Treinemanto de redes no dataset 2
+
+n_features = 13
+labels = [0.0, 1.0]
+topologia = [18]
+número de redes = 10
+épocas = 5000
+
+Taxa erro final média (treinamento): 0.13680555555555557
+Taxa erro final média (test): 0.2125
+
+# Tempo para gerar pontos do plano de informação: 39938.061324 seconds (68.07 G allocations: 5.049 TiB, 5.87% gc time, 0.05% compilation time)
